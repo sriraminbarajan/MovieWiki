@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Information</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+   <h1 class="tittle">MovieWiki</h1>
+    <div id="display" class="output_text">
+        <div class="Movie_info">
+            <div class="movie_image">
+                <div id="poster">
+                    <img id="movie_poster" src="">
+                </div><br>
+            </div>
+            <div class="movie_details">
+                    <div id="title"></div>
+                    <div class="a1" id="imdbrating"></div>
+                    <div class="a1" id="year"></div>
+                    <div class="a1" id="genre"></div>
+                    <div class="a1" id="plot"></div>
+            </div>
+        </div>
+        <div class="link">
+                <span class="imdbtag"><span class="a2" id="link_to"></span><a class="a2" href="" id="to_imdb"></a></span><br id="br">
+                
+            	<button class="button" onclick="goback()" id="back">Back</button>
+        </div>
+    </div>
+    <script>
+		information();
+	</script>
+</body>
+</html>

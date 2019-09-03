@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="background">
+       <h1 id="tittle">MovieWiki</h1>
+        <div class="middle">
+            <form onsubmit="return index()" id="search_box">
+                <label for="search" class="label">Search : </label><input type="text" name="search_box" id="search" autocomplete="off" placeholder="Enter A Movie You Are Looking For"><br><br>
+                <input type="submit" value="Search" id="button" class="button">
+            </form>
+        </div>
+    </div>
+    <h2 id="response"></h2>
+    <div id="output" class="container"></div>
+	<center><button id="show" onclick="showMore()">Show More</button></center>
+</body>
+</html>
